@@ -1,0 +1,543 @@
+{
+  "version": "0.36.0",
+  "artifacts": {
+    "CdkWorkshopStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "CdkWorkshopStack.template.json"
+      },
+      "metadata": {
+        "/CdkWorkshopStack/HelloHandler123/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandler123ServiceRole8B95A03C",
+            "trace": [
+              "new Role (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-iam/lib/role.js:30:22)",
+              "new Function (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function.js:58:35)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:12:25)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHandler123/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandler123D1CD2E35",
+            "trace": [
+              "new Function (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function.js:72:26)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:12:25)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHandler123/Code": [
+          {
+            "type": "aws:cdk:asset",
+            "data": {
+              "path": "asset.d3c5630694a16194e1d066d624ec66acba8205265cb82a06d9420b275048aacb",
+              "id": "CdkWorkshopStackHelloHandler123Code2F356F22",
+              "packaging": "zip",
+              "sourceHash": "d3c5630694a16194e1d066d624ec66acba8205265cb82a06d9420b275048aacb",
+              "s3BucketParameter": "HelloHandler123CodeS3Bucket8AFB70E9",
+              "s3KeyParameter": "HelloHandler123CodeS3VersionKey0807CF8D",
+              "artifactHashParameter": "HelloHandler123CodeArtifactHash2294741A"
+            },
+            "trace": [
+              "new Asset (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:65:19)",
+              "AssetCode.bind (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function.js:98:20)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:12:25)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHandler123/Code/S3Bucket": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandler123CodeS3Bucket8AFB70E9",
+            "trace": [
+              "new Asset (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:32:29)",
+              "AssetCode.bind (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function.js:98:20)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:12:25)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHandler123/Code/S3VersionKey": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandler123CodeS3VersionKey0807CF8D",
+            "trace": [
+              "new Asset (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:36:26)",
+              "AssetCode.bind (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function.js:98:20)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:12:25)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHandler123/Code/ArtifactHash": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandler123CodeArtifactHash2294741A",
+            "trace": [
+              "new Asset (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-s3-assets/lib/asset.js:40:27)",
+              "AssetCode.bind (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/code.js:116:26)",
+              "new Function (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function.js:98:20)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:12:25)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHandler123/Version11/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandler123Version11EFBCA7CB",
+            "trace": [
+              "new Version (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/lambda-version.js:26:25)",
+              "Function.addVersion (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function.js:263:16)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:17:12)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHandler123/Version11/ApiPermission.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandler123Version11ApiPermissionANY1852C819",
+            "trace": [
+              "Version.addPermission (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:19:9)",
+              "LambdaIntegration.bind (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:30:22)",
+              "Method.renderIntegration (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.js:73:21)",
+              "Method.renderIntegration (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.js:68:29)",
+              "new Method (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "RootResource.addMethod (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "ProxyResource.addMethod (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:111:33)",
+              "new ProxyResource (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:104:35)",
+              "RootResource.addProxy (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:18:16)",
+              "new LambdaRestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:22:23)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:52:9)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHandler123/Version11/ApiPermission.Test.ANY..": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandler123Version11ApiPermissionTestANY3B366FE9",
+            "trace": [
+              "Version.addPermission (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:19:9)",
+              "LambdaIntegration.bind (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:36:26)",
+              "Method.renderIntegration (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.js:73:21)",
+              "Method.renderIntegration (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.js:68:29)",
+              "new Method (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "RootResource.addMethod (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "ProxyResource.addMethod (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:111:33)",
+              "new ProxyResource (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:104:35)",
+              "RootResource.addProxy (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:18:16)",
+              "new LambdaRestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:22:23)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:52:9)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHandler123/Version11/ApiPermission.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandler123Version11ApiPermissionANYproxy69BB03A5",
+            "trace": [
+              "Version.addPermission (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:19:9)",
+              "LambdaIntegration.bind (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:30:22)",
+              "Method.renderIntegration (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.js:73:21)",
+              "Method.renderIntegration (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.js:68:29)",
+              "new Method (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "ProxyResource.addMethod (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "ProxyResource.addMethod (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:113:22)",
+              "new ProxyResource (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:104:35)",
+              "RootResource.addProxy (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:18:16)",
+              "new LambdaRestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:22:23)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:52:9)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/HelloHandler123/Version11/ApiPermission.Test.ANY..{proxy+}": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "HelloHandler123Version11ApiPermissionTestANYproxyDDCA4C91",
+            "trace": [
+              "Version.addPermission (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/function-base.js:19:9)",
+              "LambdaIntegration.bind (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/integrations/lambda.js:36:26)",
+              "Method.renderIntegration (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.js:73:21)",
+              "Method.renderIntegration (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.js:68:29)",
+              "new Method (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.js:27:31)",
+              "ProxyResource.addMethod (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "ProxyResource.addMethod (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:113:22)",
+              "new ProxyResource (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:104:35)",
+              "RootResource.addProxy (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:18:16)",
+              "new LambdaRestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:22:23)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:52:9)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/alias/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "alias68BF17F5",
+            "trace": [
+              "new Alias (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-lambda/lib/alias.js:17:23)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:22:30)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/BlueGreenDeployment/Application/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BlueGreenDeploymentApplication36C892C0",
+            "trace": [
+              "new LambdaApplication (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-codedeploy/lib/lambda/application.js:35:26)",
+              "new LambdaDeploymentGroup (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-codedeploy/lib/lambda/deployment-group.js:29:49)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:38:33)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/BlueGreenDeployment/ServiceRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BlueGreenDeploymentServiceRole225851FB",
+            "trace": [
+              "new Role (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-iam/lib/role.js:30:22)",
+              "new LambdaDeploymentGroup (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-codedeploy/lib/lambda/deployment-group.js:31:35)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:38:33)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/BlueGreenDeployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "BlueGreenDeployment5C188134",
+            "trace": [
+              "new LambdaDeploymentGroup (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-codedeploy/lib/lambda/deployment-group.js:35:26)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:38:33)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/AliasErrorMetricGreaterThanZeroAlarm/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "AliasErrorMetricGreaterThanZeroAlarm968FB28A",
+            "trace": [
+              "new Alarm (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-cloudwatch/lib/alarm.js:64:23)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:44:34)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointEEF1FD8F",
+            "trace": [
+              "new RestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:25:26)",
+              "new LambdaRestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:52:9)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Deployment/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointDeployment318525DA0c15e6f41f5645ee55b9843818fd8676",
+            "trace": [
+              "new Deployment (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/deployment.js:39:25)",
+              "LambdaRestApi.configureDeployment (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:136:38)",
+              "new RestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:38:14)",
+              "new LambdaRestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:52:9)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/DeploymentStage.prod/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointDeploymentStageprodB78BEEA0",
+            "trace": [
+              "new Stage (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/stage.js:27:26)",
+              "LambdaRestApi.configureDeployment (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:144:36)",
+              "new RestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:38:14)",
+              "new LambdaRestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:52:9)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Endpoint": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Endpoint8024A810",
+            "trace": [
+              "LambdaRestApi.configureDeployment (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:148:13)",
+              "new RestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:38:14)",
+              "new LambdaRestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:52:9)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/CloudWatchRole/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointCloudWatchRoleC3C64E0F",
+            "trace": [
+              "new Role (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-iam/lib/role.js:30:22)",
+              "LambdaRestApi.configureCloudWatchRole (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:157:22)",
+              "new RestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:41:18)",
+              "new LambdaRestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:52:9)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Account": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointAccountB8304247",
+            "trace": [
+              "LambdaRestApi.configureCloudWatchRole (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:161:26)",
+              "new RestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/restapi.js:41:18)",
+              "new LambdaRestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:17:9)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:52:9)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/{proxy+}/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "Endpointproxy39E2174E",
+            "trace": [
+              "new Resource (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:66:26)",
+              "new ProxyResource (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:96:9)",
+              "RootResource.addProxy (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:18:16)",
+              "new LambdaRestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:22:23)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:52:9)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/{proxy+}/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointproxyANYC09721C5",
+            "trace": [
+              "new Method (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.js:30:26)",
+              "ProxyResource.addMethod (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "ProxyResource.addMethod (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:113:22)",
+              "new ProxyResource (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:104:35)",
+              "RootResource.addProxy (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:18:16)",
+              "new LambdaRestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:22:23)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:52:9)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ],
+        "/CdkWorkshopStack/Endpoint/Default/ANY/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "EndpointANY485C938B",
+            "trace": [
+              "new Method (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/method.js:30:26)",
+              "RootResource.addMethod (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:15:16)",
+              "ProxyResource.addMethod (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:111:33)",
+              "new ProxyResource (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:104:35)",
+              "RootResource.addProxy (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/resource.js:18:16)",
+              "new LambdaRestApi (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/node_modules/@aws-cdk/aws-apigateway/lib/lambda-api.js:22:23)",
+              "new CdkWorkshopStack (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/lib/cdk-workshop-stack.js:52:9)",
+              "Object.<anonymous> (/Users/dandu1008/Documents/deepcrawl_projects/cdk-workshop/bin/cdk-workshop.js:7:1)",
+              "Module._compile (internal/modules/cjs/loader.js:774:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:785:10)",
+              "Module.load (internal/modules/cjs/loader.js:641:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:556:12)",
+              "Function.Module.runMain (internal/modules/cjs/loader.js:837:10)",
+              "internal/main/run_main_module.js:17:11"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "libraries": {
+      "@aws-cdk/core": "0.36.0",
+      "@aws-cdk/cx-api": "0.36.0",
+      "@aws-cdk/aws-lambda": "0.36.0",
+      "@aws-cdk/aws-iam": "0.36.0",
+      "@aws-cdk/region-info": "0.36.0",
+      "@aws-cdk/aws-cloudwatch": "0.36.0",
+      "@aws-cdk/aws-ec2": "0.36.0",
+      "@aws-cdk/aws-ssm": "0.36.0",
+      "@aws-cdk/aws-sqs": "0.36.0",
+      "@aws-cdk/aws-kms": "0.36.0",
+      "@aws-cdk/aws-s3-assets": "0.36.0",
+      "@aws-cdk/assets": "0.36.0",
+      "@aws-cdk/aws-s3": "0.36.0",
+      "@aws-cdk/aws-events": "0.36.0",
+      "@aws-cdk/aws-apigateway": "0.36.0",
+      "@aws-cdk/aws-codedeploy": "0.36.0",
+      "jsii-runtime": "node.js/v12.4.0"
+    }
+  }
+}

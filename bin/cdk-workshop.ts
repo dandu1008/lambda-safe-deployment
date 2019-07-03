@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import cdk = require('@aws-cdk/cdk');
+import { App } from '@aws-cdk/core';
 import { CdkWorkshopStack } from '../lib/cdk-workshop-stack';
 
-const app = new cdk.App();
+const app = new App();
 new CdkWorkshopStack(app, 'CdkWorkshopStack');
-app.run();
+app.synth();

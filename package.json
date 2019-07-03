@@ -12,11 +12,16 @@
   "devDependencies": {
     "@types/node": "^8.9.4",
     "typescript": "^3.1.2",
-    "aws-cdk": "^0.22.0"
+    "aws-cdk": "^0.36.0",
+    "@types/lodash": "^4.14.123"
   },
   "dependencies": {
-    "@aws-cdk/aws-sns": "^0.22.0",
-    "@aws-cdk/aws-sqs": "^0.22.0",
-    "@aws-cdk/cdk": "^0.22.0"
+    "@aws-cdk/aws-lambda": "^0.36.0",
+    "@aws-cdk/aws-sns": "^0.36.0",
+    "@aws-cdk/aws-sqs": "^0.36.0",
+    "@aws-cdk/aws-codedeploy": "^0.36.0",
+    "@aws-cdk/aws-apigateway": "^0.36.0",
+    "@aws-cdk/cdk": "^0.36.0",
+    "lodash": "^4.14.123"
   }
 }
