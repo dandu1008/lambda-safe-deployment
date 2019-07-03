@@ -8,5 +8,5 @@
  
 # After Build done, Follow below commands to deploy the lambda along with deployconfig for blue/gree test
  
- `cdk synth --profile <aws profile name>`
- `cdk deploy --profile <aws profile name>`
+ * `cdk synth --profile <aws profile name>`
+ * `cdk deploy --profile <aws profile name>`
